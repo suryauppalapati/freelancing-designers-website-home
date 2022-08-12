@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+body{
+    padding: 2rem 0;
+    background: url(../images/backcover.svg);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 55rem;
+
+}
+
+nav, .nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item{
+    padding: 0 1rem;
+    font-size: medium;
+}
+
+.signin-btn{
+    padding: 0.25rem 1.5rem;
+    background: linear-gradient(to right,#965cf2, #ff8adc);
+    border:1px solid transparent;
+    border-radius: 1rem;
+    font-size: medium;
+    color: #fff;
+}
+
+.intro-section{
+    display: flex;
+    margin-left: 7rem;
+}
+
+.left-section{
+    flex: 1;
+    padding: 10% 0;
+    position: relative;
+}
+
+.left-section h1{
+    font-size: 4rem;
+    color: #3e4794;
+}
+
+.left-section h4{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #8285a0;
+    padding: 3rem 3.5rem 3rem 0rem;
+    line-height: 1.75rem;
+}
+
+.learn-more-btn{
+    padding: 0.75rem 2rem;
+    background: linear-gradient(to right,#965cf2, #ff8adc);
+    border:1px solid transparent;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.imgs-div{
+    flex: 2;
+    position: relative;
+}
+
+.vector-img{
+    position: absolute;
+    top: 60vh;
+}
+
+.vector-dot{
+    position: absolute;
+    bottom: 11rem;
+    left: 3.5rem;
+}
+
+.imgs-div img:nth-child(3){
+    margin-right: 2rem;
+    height: 85vh;
+}
